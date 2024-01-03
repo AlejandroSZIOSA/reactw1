@@ -3,12 +3,15 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import { Flex, Text, Button } from "@radix-ui/themes";
+import { Dropdown } from "./components/Dropdown";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
+      <Dropdown />
+
       <Text>Hola</Text>
       <div>
         <a href="https://vitejs.dev" target="_blank">
