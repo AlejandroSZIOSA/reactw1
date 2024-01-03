@@ -6,7 +6,7 @@ import {
   CheckIcon,
   ChevronRightIcon,
 } from "@radix-ui/react-icons";
-import ".src/styles/dropStyle.css";
+import ".src/styles/dropstyle.css";
 
 const DropdownMenuDemo = () => {
   const [bookmarksChecked, setBookmarksChecked] = React.useState(true);
