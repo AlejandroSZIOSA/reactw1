@@ -1,11 +1,12 @@
 import { Flex, Text, Button, Tabs, Box } from "@radix-ui/themes";
 import Ctabs from "./components/content/Ctabs";
+import Hselector from "./components/header/Hselector";
 
 export default function HeaderContent() {
   return (
     <Flex direction="row">
-      <Box height="10">
-        <Text>Dropdown here</Text>
+      <Box width="30" height="10">
+        <Hselector />
       </Box>
       <Box>
         <Ctabs />
