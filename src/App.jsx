@@ -6,13 +6,14 @@ import "./App.css";
 import "@radix-ui/themes/styles.css";
 import { Flex, Text, Button } from "@radix-ui/themes";
 
-import DropdownTest from "./components/header/DropdownTest.jsx";
-import CpartOne from "./components/content/CpartOne.jsx";
+import MainContent from "./MainContent.jsx";
+import HeaderContent from "./HeaderContent.jsx";
 
 function App() {
   return (
     <Flex direction="column">
-      <CpartOne />
+      <HeaderContent />
+      <MainContent />
     </Flex>
   );
 }
