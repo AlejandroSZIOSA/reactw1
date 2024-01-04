@@ -1,4 +1,4 @@
-function DropdownTest() {
+export default function DropdownTest() {
   return (
     <DropdownMenu.Root>
       <DropdownMenu.Trigger>
@@ -35,5 +35,3 @@ function DropdownTest() {
     </DropdownMenu.Root>
   );
 }
-
-export default DropdownTest;
