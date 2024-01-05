@@ -1,8 +1,9 @@
 import { Text, Box, Card, Flex } from "@radix-ui/themes";
+import CtableProfiles from "./CtableProfiles";
 
 export default function CcardRecentSales() {
   return (
-    <Card size="2" style={{ width: 280 }}>
+    <Card size="2" style={{ width: 535, height: 445 }}>
       <Flex direction="column">
         <Box>
           <Flex direction="column" justify="between">
@@ -13,6 +14,9 @@ export default function CcardRecentSales() {
               <Text size="2">You made 265 sales this month</Text>
             </Box>
           </Flex>
+        </Box>
+        <Box>
+          <CtableProfiles />
         </Box>
       </Flex>
     </Card>
