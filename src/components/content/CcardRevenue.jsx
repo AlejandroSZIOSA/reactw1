@@ -1,8 +1,8 @@
-import { Text, Box, Card, Avatar, Flex } from "@radix-ui/themes";
+import { Text, Box, Card, Flex } from "@radix-ui/themes";
 
 export default function CcardRevenue() {
   return (
-    <Card size="3" style={{ width: 300 }}>
+    <Card size="2" style={{ width: 280 }}>
       <Flex direction="column">
         <Box>
           <Flex direction="row" justify="between">

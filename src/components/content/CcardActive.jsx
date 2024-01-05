@@ -1,13 +1,13 @@
 import { Text, Box, Card, Flex } from "@radix-ui/themes";
 
-export default function CcardSubcriptions() {
+export default function CcardActive() {
   return (
     <Card size="2" style={{ width: 280 }}>
       <Flex direction="column">
         <Box>
           <Flex direction="row" justify="between">
             <Box pt="2" pb="1">
-              <Text size="2">Subscriptions</Text>
+              <Text size="2">Active Now</Text>
             </Box>
             <Box pt="2" pb="1">
               <Text size="2">$</Text>
@@ -17,12 +17,12 @@ export default function CcardSubcriptions() {
 
         <Box pl="1">
           <Text size="8" weight="bold">
-            +2350
+            +573
           </Text>
         </Box>
 
         <Box pl="1">
-          <Text size="1">+180.1% from last month</Text>
+          <Text size="1">+201 from last month</Text>
         </Box>
       </Flex>
     </Card>
