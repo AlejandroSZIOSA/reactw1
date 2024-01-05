@@ -12,7 +12,7 @@ export default function HeaderContent() {
   return (
     <Box style={styles.container}>
       <Flex direction="row" justify="between">
-        <Flex direction="row">
+        <Flex>
           <Box p="2">
             <Hselector />
           </Box>
