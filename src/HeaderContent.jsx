@@ -4,17 +4,26 @@ import Hselector from "./components/header/Hselector";
 import Havatar from "./components/header/Havatar";
 
 export default function HeaderContent() {
+  const styles = {
+    container: {
+      background: "yellow",
+    },
+  };
   return (
-    <Flex direction="row">
-      <Box width="30" height="10">
-        <Hselector />
-      </Box>
-      <Box>
-        <Ctabs />
-      </Box>
-      <Box>
-        <Havatar />
-      </Box>
-    </Flex>
+    <Box style={styles.container}>
+      <Flex direction="row" justify="between">
+        <Flex direction="row">
+          <Box p="2">
+            <Hselector />
+          </Box>
+          <Box p="2">
+            <Ctabs />
+          </Box>
+        </Flex>
+        <Box p="2">
+          <Havatar />
+        </Box>
+      </Flex>
+    </Box>
   );
 }
