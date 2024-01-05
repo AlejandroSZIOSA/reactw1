@@ -4,6 +4,7 @@ import CcardRevenue from "./components/content/CcardRevenue";
 import CcardSubcriptions from "./components/content/CcardSubcriptions";
 import CcardSales from "./components/content/CcardSales";
 import CcardActive from "./components/content/CcardActive";
+import CcardRecentSales from "./components/content/CcardRecentSales";
 
 export default function MainContent() {
   const styles = {
@@ -52,6 +53,15 @@ export default function MainContent() {
             </Box>
             <Box py="4">
               <CcardActive />
+            </Box>
+          </Flex>
+
+          <Flex direction="row">
+            <Box>
+              <Text> Grap</Text>
+            </Box>
+            <Box>
+              <CcardRecentSales />
             </Box>
           </Flex>
         </Flex>
