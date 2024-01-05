@@ -50,7 +50,6 @@ export default function MainContent() {
             <Box py="4">
               <CcardSales />
             </Box>
-
             <Box py="4">
               <CcardActive />
             </Box>
