@@ -1,6 +1,7 @@
 import { Flex, Text, Button, Tabs, Box } from "@radix-ui/themes";
 import Ctabs from "./components/content/Ctabs";
 import CcardRevenue from "./components/content/CcardRevenue";
+import CcardSubcriptions from "./components/content/CcardSubcriptions";
 
 export default function MainContent() {
   const styles = {
@@ -36,9 +37,16 @@ export default function MainContent() {
           >
             <Ctabs />
           </Box>
-          <Box py="4" px="8">
-            <CcardRevenue />
-          </Box>
+
+          <Flex direction="row" gap="4">
+            <Box py="4" pl="6">
+              <CcardRevenue />
+            </Box>
+
+            <Box py="4">
+              <CcardSubcriptions />
+            </Box>
+          </Flex>
         </Flex>
       </Flex>
     </Box>
