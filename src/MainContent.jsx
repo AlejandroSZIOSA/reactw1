@@ -1,5 +1,6 @@
 import { Flex, Text, Button, Tabs, Box } from "@radix-ui/themes";
 import Ctabs from "./components/content/Ctabs";
+import CcardRevenue from "./components/content/CcardRevenue";
 
 export default function MainContent() {
   const styles = {
@@ -8,8 +9,9 @@ export default function MainContent() {
     },
     tabContainer: {
       background: "grey",
-      border: "solid 2px",
+      border: "solid 1px",
       borderRadius: "10px",
+      marginLeft: "40px",
     },
   };
   return (
@@ -17,7 +19,7 @@ export default function MainContent() {
       <Flex direction="column">
         <Flex direction="row" justify="between" align="center">
           <Box p="6">
-            <Text align="left" size="8">
+            <Text align="left" size="8" weight="bold">
               Dashboard
             </Text>
           </Box>
@@ -28,15 +30,14 @@ export default function MainContent() {
 
         <Flex direction="column">
           <Box
+            style={styles.tabContainer}
             width="min-content"
             height="min-content"
-            px="2"
-            style={styles.tabContainer}
           >
             <Ctabs />
           </Box>
-          <Box>
-            <Text>Card</Text>
+          <Box py="4" px="8">
+            <CcardRevenue />
           </Box>
         </Flex>
       </Flex>
