@@ -1,4 +1,4 @@
-import { Text, Tabs, Box } from "@radix-ui/themes";
+import { Tabs } from "@radix-ui/themes";
 
 export default function Ctabs() {
   return (

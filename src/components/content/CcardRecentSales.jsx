@@ -1,6 +1,7 @@
 import { Text, Box, Card, Flex } from "@radix-ui/themes";
 import CtableProfiles from "./CtableProfiles";
 
+//Nested Component: CtableProfiles
 export default function CcardRecentSales() {
   return (
     <Card size="2" style={{ width: 535, height: 550 }}>

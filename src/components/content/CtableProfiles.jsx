@@ -1,6 +1,7 @@
 import { Table, Text } from "@radix-ui/themes";
 import CcardUserInfo from "../reusable/CcardUserInfo";
 
+//Nested Component: CcardUserInfo.jsx
 export default function CtableProfiles() {
   return (
     <Table.Root>

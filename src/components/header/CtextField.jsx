@@ -1,4 +1,4 @@
-import { TextField, Text } from "@radix-ui/themes";
+import { TextField } from "@radix-ui/themes";
 
 export default function CtextField() {
   return (

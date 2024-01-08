@@ -60,7 +60,7 @@ export default function MainContent() {
             <Box>
               <Text> Grap</Text>
             </Box>
-            <Box>
+            <Box mb="4">
               <CcardRecentSales />
             </Box>
           </Flex>

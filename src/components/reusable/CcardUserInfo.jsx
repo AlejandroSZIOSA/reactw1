@@ -1,5 +1,6 @@
 import { Text, Box, Card, Flex, Avatar } from "@radix-ui/themes";
 
+//Nested Component
 export default function CcardUserInfo(props) {
   return (
     <Card size="1" style={{ maxWidth: 220 }}>
