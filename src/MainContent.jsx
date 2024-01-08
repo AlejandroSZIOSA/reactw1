@@ -12,7 +12,7 @@ export default function MainContent() {
       background: "orange",
     },
     tabContainer: {
-      background: "grey",
+      background: "white",
       border: "solid 1px",
       borderRadius: "10px",
       marginLeft: "40px",

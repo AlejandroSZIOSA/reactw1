@@ -1,4 +1,4 @@
-import { Table } from "@radix-ui/themes";
+import { Table, Text } from "@radix-ui/themes";
 import CcardUserInfo from "../reusable/CcardUserInfo";
 
 export default function CtableProfiles() {
@@ -14,10 +14,18 @@ export default function CtableProfiles() {
       <Table.Body>
         <Table.Row align="center">
           <Table.RowHeaderCell>
-            <CcardUserInfo />
+            <CcardUserInfo
+              nameProp="Gato"
+              ePostProp="olivia.martin@email.com"
+              srcProp="https://ui.shadcn.com/avatars/01.png"
+            />
           </Table.RowHeaderCell>
 
-          <Table.Cell>+$1.990.899</Table.Cell>
+          <Table.Cell>
+            <Text size="3" weight="medium">
+              +$1.990.899
+            </Text>
+          </Table.Cell>
         </Table.Row>
 
         <Table.Row>
