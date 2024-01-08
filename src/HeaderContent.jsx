@@ -3,6 +3,7 @@ import Ctabs from "./components/content/Ctabs";
 import Hselector from "./components/header/Hselector";
 import Havatar from "./components/header/Havatar";
 import HnavLinks from "./components/header/HnavLinks";
+import CtextField from "./components/header/CtextField";
 
 export default function HeaderContent() {
   const styles = {
@@ -21,9 +22,15 @@ export default function HeaderContent() {
             <HnavLinks />
           </Box>
         </Flex>
-        <Box p="2">
-          <Havatar />
-        </Box>
+
+        <Flex align="center">
+          <Box pr="3">
+            <CtextField />
+          </Box>
+          <Box p="2">
+            <Havatar />
+          </Box>
+        </Flex>
       </Flex>
     </Box>
   );
