@@ -16,7 +16,7 @@ const data = [
 
 export default function Ctabs() {
   return (
-    <BarChart width={600} height={450} data={data}>
+    <BarChart width={600} height={460} data={data}>
       <XAxis dataKey="name" stroke="#8884d8" />
       <YAxis tickFormatter={(value) => `+$${value}`} />
       <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />

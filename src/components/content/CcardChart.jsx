@@ -6,12 +6,12 @@ export default function CcardChart() {
   return (
     <Card size="2" style={{ width: 650, height: 550 }}>
       <Flex direction="column" justify="center" align="left">
-        <Box pb="4">
+        <Box pt="3" pb="5">
           <Text size="5" weight="medium">
             Overview
           </Text>
         </Box>
-        <Box width="100%" height="auto">
+        <Box>
           <Overview />
         </Box>
       </Flex>

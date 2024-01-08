@@ -10,18 +10,19 @@ import CcardChart from "./components/content/CcardChart";
 
 export default function MainContent() {
   const styles = {
-    container: {
+    /* container: {
       background: "orange",
-    },
+    }, */
     tabContainer: {
       background: "white",
       border: "solid 1px",
       borderRadius: "10px",
       marginLeft: "40px",
+      backgroundColor: " #EAEAEA",
     },
   };
   return (
-    <Box style={styles.container}>
+    <Box>
       <Flex direction="column">
         <Flex direction="row" justify="between" align="center">
           <Box p="6">
@@ -30,7 +31,9 @@ export default function MainContent() {
             </Text>
           </Box>
           <Box px="6">
-            <Button> Download</Button>
+            <Button size="3" style={{ background: "black" }}>
+              Download
+            </Button>
           </Box>
         </Flex>
 
