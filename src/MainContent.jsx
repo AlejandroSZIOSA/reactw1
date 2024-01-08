@@ -5,7 +5,6 @@ import CcardSubcriptions from "./components/content/CcardSubcriptions";
 import CcardSales from "./components/content/CcardSales";
 import CcardActive from "./components/content/CcardActive";
 import CcardRecentSales from "./components/content/CcardRecentSales";
-import Overview from "./components/content/Overview";
 import CcardChart from "./components/content/CcardChart";
 
 export default function MainContent() {

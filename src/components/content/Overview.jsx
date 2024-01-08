@@ -1,4 +1,4 @@
-import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid } from "recharts";
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid } from "recharts";
 const data = [
   { name: "Jan", uv: 50, pv: 2400, amt: 2400 },
   { name: "Feb", uv: 100, pv: 2400, amt: 2400 },
