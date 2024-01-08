@@ -9,10 +9,12 @@ export default function CcardRecentSales() {
         <Box>
           <Flex direction="column" justify="between">
             <Box pt="2" pb="1">
-              <Text size="2">Recent Sales</Text>
+              <Text size="3" weight="bold">
+                Recent Sales
+              </Text>
             </Box>
             <Box>
-              <Text size="2">You made 265 sales this month</Text>
+              <Text size="3">You made 265 sales this month</Text>
             </Box>
           </Flex>
         </Box>
