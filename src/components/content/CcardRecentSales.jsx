@@ -3,7 +3,7 @@ import CtableProfiles from "./CtableProfiles";
 
 export default function CcardRecentSales() {
   return (
-    <Card size="2" style={{ width: 535, height: 445 }}>
+    <Card size="2" style={{ width: 535, height: 550 }}>
       <Flex direction="column">
         <Box>
           <Flex direction="column" justify="between">

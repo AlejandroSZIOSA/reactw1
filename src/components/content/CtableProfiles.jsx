@@ -44,10 +44,52 @@ export default function CtableProfiles() {
           </Table.Cell>
         </Table.Row>
 
-        <Table.Row>
-          <Table.RowHeaderCell>Jasper Eriksson</Table.RowHeaderCell>
+        <Table.Row align="center">
+          <Table.RowHeaderCell>
+            <CcardUserInfo
+              nameProp="Isabella Nguyen"
+              ePostProp="isabella.nguyen@email.com"
+              srcProp="https://ui.shadcn.com/avatars/03.png"
+            />
+          </Table.RowHeaderCell>
 
-          <Table.Cell>Developer</Table.Cell>
+          <Table.Cell>
+            <Text size="3" weight="medium">
+              +$299.00
+            </Text>
+          </Table.Cell>
+        </Table.Row>
+
+        <Table.Row align="center">
+          <Table.RowHeaderCell>
+            <CcardUserInfo
+              nameProp="William Kim"
+              ePostProp="will@email.com"
+              srcProp="https://ui.shadcn.com/avatars/04.png"
+            />
+          </Table.RowHeaderCell>
+
+          <Table.Cell>
+            <Text size="3" weight="medium">
+              +$99.00
+            </Text>
+          </Table.Cell>
+        </Table.Row>
+
+        <Table.Row align="center">
+          <Table.RowHeaderCell>
+            <CcardUserInfo
+              nameProp="Sofia Davis"
+              ePostProp="sofia.davis@email.com"
+              srcProp="https://ui.shadcn.com/avatars/05.png"
+            />
+          </Table.RowHeaderCell>
+
+          <Table.Cell>
+            <Text size="3" weight="medium">
+              +$39.00
+            </Text>
+          </Table.Cell>
         </Table.Row>
       </Table.Body>
     </Table.Root>
