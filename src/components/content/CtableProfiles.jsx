@@ -15,7 +15,7 @@ export default function CtableProfiles() {
         <Table.Row align="center">
           <Table.RowHeaderCell>
             <CcardUserInfo
-              nameProp="Gato"
+              nameProp="Olivia Martin"
               ePostProp="olivia.martin@email.com"
               srcProp="https://ui.shadcn.com/avatars/01.png"
             />
@@ -28,10 +28,20 @@ export default function CtableProfiles() {
           </Table.Cell>
         </Table.Row>
 
-        <Table.Row>
-          <Table.RowHeaderCell>Zahra Ambessa</Table.RowHeaderCell>
+        <Table.Row align="center">
+          <Table.RowHeaderCell>
+            <CcardUserInfo
+              nameProp="Jackson Lee"
+              ePostProp="jackson.lee@email.com"
+              srcProp="https://ui.shadcn.com/avatars/02.png"
+            />
+          </Table.RowHeaderCell>
 
-          <Table.Cell>Admin</Table.Cell>
+          <Table.Cell>
+            <Text size="3" weight="medium">
+              +$39.899
+            </Text>
+          </Table.Cell>
         </Table.Row>
 
         <Table.Row>
